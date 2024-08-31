@@ -1,0 +1,40 @@
+{
+    "general": {
+        "type": "section",
+        "description": "General"
+    },
+
+    "unpin-autohide-type": {
+        "type": "combobox",
+        "description": "Hide Type on Unpin",
+        "default": "intel",
+        "options": {
+            "Auto Hide": "true",
+            "Intelligent Hide": "intel"
+        }
+    },
+
+    "style": {
+        "type": "section",
+        "description": "Style"
+    },
+
+    "use-custom-icons": {
+        "type": "switch",
+        "description": "Use Custom Icons",
+        "default": false
+    },
+    "pin-icon": {
+        "type": "iconfilechooser",
+        "default": "xapp-pin-symbolic",
+        "description": "Pin Icon",
+        "dependency": "use-custom-icons"
+    },
+    "unpin-icon": {
+        "type": "iconfilechooser",
+        "default": "xapp-unpin-symbolic",
+        "description": "Unpin Icon",
+        "dependency": "use-custom-icons"
+    }
+
+}
