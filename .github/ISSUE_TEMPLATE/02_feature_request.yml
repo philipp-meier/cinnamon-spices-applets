@@ -73,6 +73,7 @@ body:
     - Exit@claudiux @claudiux
     - expressvpn@Hukuta @Hukuta
     - feeds@jonbrettdev.wordpress.com @jake1164
+    - fish@kriegcc @kriegcc
     - force-quit@cinnamon.org
     - fw_fanctrl@juleskreuer.eu @not-a-feature
     - gamemode@axel358 @axel358
@@ -127,6 +128,7 @@ body:
     - octopussy@centurix @centurix
     - officeCenter@scollins @collinss
     - pa-equalizer@jschug.com
+    - panel-tweaks@anaximeno @anaximeno
     - paneldo@beatlink
     - PanelTranslator@klangman @klangman
     - password-generator@spencerlommel.com @SpencerLommel
@@ -191,6 +193,7 @@ body:
     - system-controls@rcalixte @rcalixte
     - system-monitor@spacy01 @spacy01
     - systray-collapsible@koutch
+    - tapo@smiklosovic @stefanmiklosovic
     - temperature@fevimu @claudiux
     - text-to-speech-applet@cardsurf @cardsurf
     - ThemeRefresh@JosephM
@@ -216,6 +219,7 @@ body:
     - window-list@sangorys @sangorys
     - window-list@zeripath.sdf-eu.org @zeripath
     - windowlist@cobinja.de @Cobinja
+    - wine-utils@elblake @elblake
     - wireguard@nicoulaj.net @nicoulaj
     - workspace-grid@hernejj @hernejj
     - workspace-name@willurd @willurd
