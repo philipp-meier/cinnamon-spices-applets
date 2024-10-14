@@ -85,6 +85,7 @@
         "showMicMutedOnIcon",
         "showMicUnmutedOnIcon",
         "adaptColor",
+        "color0_100",
         "color101_115",
         "color116_130",
         "color131_150",
@@ -95,11 +96,13 @@
       "type": "section",
       "title": "Sound Settings",
       "keys": [
-        "setAmplification",
+        "openSystemSoundSettings",
+        "maxVolume",
         "stepVolume",
         "magneticOn",
         "magnetic25On",
-        "alwaysCanChangeMic"
+        "alwaysCanChangeMic",
+        "avoidCrackingAtShutdown"
       ]
     },
     "sectionSound2": {
@@ -291,10 +294,18 @@
     "default": false,
     "description": "Display icon indicating that the microphone is activated, if applicable"
   },
-  "setAmplification": {
+  "openSystemSoundSettings": {
     "type": "button",
-    "description": "Maximum volume control",
-    "callback": "_onSetApmlificationPressed"
+    "description": "System Sound Settings",
+    "callback": "_onSystemSoundSettingsPressed"
+  },
+  "maxVolume": {
+	"type": "scale",
+	"description": "Maximum volume (%)",
+	"default": 100,
+	"min": 30,
+	"max": 150,
+	"step": 5
   },
   "stepVolume": {
     "type": "combobox",
@@ -331,6 +342,12 @@
     "description": "Adjust the color of the icon to the volume",
     "default": true
   },
+  "color0_100": {
+    "type": "colorchooser",
+    "dependency": "adaptColor",
+    "default": "#e4e4e4",
+    "description": "Icon color: 0%-100%"
+  },
   "color101_115": {
     "type": "colorchooser",
     "dependency": "adaptColor",
@@ -359,6 +376,11 @@
     "type": "switch",
     "description": "Always allow microphone to be reactivated",
     "tooltip": "Always show the 'Mute input' switch in the context menu.",
+    "default": true
+  },
+  "avoidCrackingAtShutdown": {
+    "type": "switch",
+    "description": "Try to avoid loud cracking sound at shutdown",
     "default": true
   },
   "showMediaKeysOSD": {
