@@ -56,7 +56,7 @@ msgstr "Alle Beiträge als gelesen markieren"
 
 #: applet.js:757
 msgid "Mark Next "
-msgstr "Nächsten markieren "
+msgstr "Die nächsten "
 
 #: applet.js:757
 msgid " Posts Read"
